@@ -69,7 +69,7 @@ public class ResourceCentre {
 					// Loan camcorder
 					ResourceCentre.loanCamcorder(camcorderList);
 				} else if (itemType == ITEM_TYPE_CHROMEBOOK) {
-					// Loan Chromebook
+					// Loan a Chromebook
 					ResourceCentre.loanChromebook(chromebookList);
 				} else {
 					System.out.println("Invalid type");
