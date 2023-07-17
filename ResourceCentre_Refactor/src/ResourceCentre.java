@@ -78,7 +78,7 @@ public class ResourceCentre {
 				
 				int itemType = Helper.readInt("Enter option to select item type > ");
 				if (itemType == ITEM_TYPE_CAMCORDER) {
-					// Return camcorder/
+					// Return camcorder
 					ResourceCentre.returnCamcorder(camcorderList);
 				} else if (itemType == ITEM_TYPE_CHROMEBOOK) {
 					// Return Chromebook
